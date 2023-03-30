@@ -1,0 +1,43 @@
+<!-- NAV BAR -->
+    <div class="nav-container"> 
+        <div class="main-container">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navfont">
+            <a class="navbar-brand" href="index.html"> <img src="svg/logo1.svg" width="150" height="50" class="d-inline-block align-top" alt="Pitiphong"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: end;">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Arts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About-me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    WEB 3.0
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://foundation.app/@p1u3m" target="_blank" style="font-size: 14px;">
+                      <img src="svg/fnd-01.svg" width="25" height="25" class="d-inline-block align-middle" alt="">
+                      Foundation
+                    </a>
+                    <a class="dropdown-item" href="https://p1u3m.eth.co/" target="_blank" style="font-size: 16px;">
+                      <img src="svg/ethco.svg" width="25" height="25" class="d-inline-block align-middle" alt="">
+                      Eth.co
+                    </a>
+                    <a class="dropdown-item" href="https://opensea.io/p1u3m" target="_blank" style="font-size: 16px;">
+                      <img src="svg/opensea.svg" width="25" height="25" class="d-inline-block align-middle" alt="">
+                      Opensea
+                    </a>
+                    <!-- <a class="dropdown-item" href="#" target="_blank">soon</a> -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- NAV BAR -->
